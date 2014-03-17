@@ -8,6 +8,7 @@ Usage
 
 To use the script you must have [registered a Bratabase application](http://developers.bratabase.com/register-app/) because you will need its credentials to use the API.
 
+To run the script:
 
     $ ./cup_convert.py --app=YOUR_APP_ID --key=APP_SECRET --brand=BRAND_SLUG
 
@@ -15,7 +16,7 @@ Where:
 
 * **YOUR_APP_ID**: Is the application ID.
 * **APP_SECRET**: The application's secret key.
-* **BRAND_SLUG**: The __slug__ of the brand you want to convert cups to. You can obtain this from http://bratabsae.com and check the URL of any brand.
+* **BRAND_SLUG**: The __slug__ of the brand you want to convert cups to. You can obtain this from http://www.bratabase.com and check the URL of any brand fro its url, or by exploring the API and get the `slug` attribute from any brand ('freya', 'ewa-michalak', 'comexim', etc.).
 
 
 You will be shown the top 20 brands and pick one of them.
